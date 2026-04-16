@@ -8,7 +8,7 @@ export default function Hero() {
     <section id="top" className="pt-[80px] bg-cream-50">
       <div className="max-w-5xl mx-auto px-6 py-12 md:py-20">
         <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
-          <div className="order-2 md:order-1">
+          <div className="order-1">
             <p className="text-xs tracking-widest uppercase font-lato text-rose-700 mb-4">
               Est. in Brentwood, Essex
             </p>
@@ -45,7 +45,7 @@ export default function Hero() {
             </p>
           </div>
 
-          <div className="order-1 md:order-2 relative">
+          <div className="order-2 relative">
             <div className="relative overflow-hidden">
               <img
                 src={SALON_WIDER}
