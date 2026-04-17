@@ -10,7 +10,7 @@ export default function Hero() {
         <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
           <div className="order-1">
             <p className="text-xs tracking-widest uppercase font-lato text-rose-700 mb-4">
-              Est. in Brentwood, Essex
+              Est. 1984
             </p>
             <h1 className="font-serif text-5xl md:text-6xl text-warm-900 leading-tight mb-6">
               Hair at<br />
