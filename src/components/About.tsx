@@ -1,6 +1,6 @@
 import { ScissorsIcon } from './Icons';
 
-const INTERIOR_1 = 'https://raw.githubusercontent.com/james-palmer/new-image/master/WhatsApp-Image-2021-04-11-at-1.09.20-AM-640x400.jpeg';
+const INTERIOR_1 = '/Salon_Interior.jpeg';
 const SALON_FRONT = 'https://raw.githubusercontent.com/james-palmer/new-image/master/Salon-front-side-640x400.jpeg';
 
 export default function About() {

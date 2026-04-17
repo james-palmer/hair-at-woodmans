@@ -1,6 +1,6 @@
 import { PhoneIcon, MapPinIcon } from './Icons';
 
-const SALON_WIDER = 'https://raw.githubusercontent.com/james-palmer/new-image/master/Salon-wider-640x400.jpeg';
+const SALON_WIDER = '/Salon_Interior.jpeg';
 const SALON_FRONT = 'https://raw.githubusercontent.com/james-palmer/new-image/master/Salon-front-side-640x400.jpeg';
 
 export default function Hero() {
