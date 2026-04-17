@@ -14,6 +14,7 @@ export default function Header() {
   const navLinks = [
     { label: 'About', href: '#about' },
     { label: 'Services', href: '#services' },
+    { label: 'FAQ', href: '#faq' },
     { label: 'Find Us', href: '#find-us' },
   ];
 
@@ -25,7 +26,11 @@ export default function Header() {
     >
       <div className="max-w-5xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <a href="#top" className="flex items-center gap-3 group">
+          <a
+            href="#top"
+            className="flex items-center gap-3 group"
+            aria-label="Hair at Woodmans — home"
+          >
             <ScissorsIcon
               size={22}
               className="text-rose-800 transition-transform duration-300 group-hover:rotate-12"
@@ -40,7 +45,7 @@ export default function Header() {
             </div>
           </a>
 
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden md:flex items-center gap-8" aria-label="Primary">
             {navLinks.map((link) => (
               <a
                 key={link.href}
